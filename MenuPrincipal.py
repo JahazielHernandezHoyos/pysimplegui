@@ -12,5 +12,6 @@ window = sg.Window('Tecnoacademia', layout, default_button_element_size=(
     15, 2), auto_size_buttons=False, element_justification='c', no_titlebar=True, location=(0,0), size=(800,600), keep_on_top=True).Finalize()
 window.Maximize()
 
-event, values = window.read()    
+event, values = window.read()
+
 window.close()
