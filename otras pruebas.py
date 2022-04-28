@@ -26,7 +26,6 @@ def registro():
         elif event == 'Enviar':
             keys_entered = values['input']
             window.close()
-            VerifyUser()
             sg.popup_ok(keys_entered, no_titlebar=True, location=(0,0), size=(800,600), keep_on_top=True)
             ventanaPrincipal()
         window['input'].update(keys_entered)  # change the window to reflect current key string   
